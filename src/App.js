@@ -39,6 +39,16 @@ function App() {
 
     setSuccess(ticketOpened)
     setError(!ticketOpened)
+    setAccountName("")
+    setRequesterEmail("")
+    setSubject("Others")
+    setDetailing("")
+    setOrderNumber("")
+    setAffectingAllUsers(false)
+    setTransactionNumber("")
+    setTransactionStatus("")
+    setPaymentAcquirer("")
+    setSkuId("")
   }
 
   return (
